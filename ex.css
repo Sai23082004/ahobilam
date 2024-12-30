@@ -1,0 +1,284 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+}
+a
+{
+    text-decoration: none;
+}
+li
+{
+    list-style: none;
+}
+
+/* header {
+    background-image:url(1.jpg) ;
+    background-size:cover;
+    background: position 5px;;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    
+}
+header img {
+    height: 100px;
+
+}
+
+header h1 {
+    color:#C46413;
+    font-size: 34px;
+    margin: 10;
+    font-family: inherit;
+    
+}
+
+nav a {
+    color: white;
+    border-radius: 20px;
+    border: #fed7aa;
+    padding: 15px 40px;
+    text-decoration: none;
+    display: inline-block;
+   
+}
+nav a:hover {
+    background: #991b1b;
+   
+}
+
+.main-content {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    display: inline;
+    
+    
+}
+.main-content img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+main{
+    display: flex;
+    background-color: #c45923;
+    color:beige;
+    margin: 10px;
+    border-style:inset;
+    
+} */
+/* --------------------------------- */
+.line
+{
+    height: 0.8rem;
+    background-color: #F7931E;
+}
+
+nav {
+    height: 12rem;
+    background-color: white;
+}
+
+.nav_container {
+    height: 12rem;
+    margin: 0rem 20rem 0rem 22rem;
+    position: relative;
+    overflow: hidden; /* Ensures the background image stays inside the container */
+}
+
+.nav_container .background-image {
+    position: absolute; /* Makes the image a background-like element */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Places the background image behind other content */
+    object-fit: cover; /* Ensures the image covers the container */
+}
+
+.images_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+    z-index: 2; /* Ensures the header content is above the background image */
+    padding: 0 1rem;
+}
+
+.images_header img {
+    max-height: 100%; /* Ensures images fit within their containers */
+}
+
+.left_nav {
+    height: 100%;
+    width: 5rem;
+}
+
+.left_nav img {
+    height: 100%;
+}
+
+.middle_nav {
+    flex-grow: 1; /* Allows the middle section to take available space */
+    text-align: center; /* Centers the text horizontally */
+    font-size: 2rem;
+    font-weight: bold;
+    color: navy; /* Adjust as needed for better contrast with the background */
+}
+
+.right_nav {
+    height: 100%;
+}
+
+.right_nav img {
+    height: 100%;
+}
+.hr_line
+{
+    border: none; /* Removes the default border */
+    height: 10px; /* Sets the height of the line */
+    background-color: black; /* Sets the color of the line */
+
+}
+
+
+section {
+    background: #8B1012; /* Set the background color */
+    width: 100vw; /* Full width */
+    height: auto; /* Adjust height to accommodate the nav and hr lines */
+    position: relative;
+    /* top: 12.8rem; Adjust the top offset */
+    z-index: 10; /* Ensures it stays above other elements */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-line {
+    width: 0%; /* Initially 0% width */
+    height: 2px; /* Line thickness */
+    background-color: black; /* Line color */
+    margin: 0; /* Remove default margins */
+    transition: width 0.3s ease; /* Smooth width transition */
+}
+
+section:hover .nav-line {
+    width: 100%; /* Expand the line width on hover */
+}
+
+.nav_containe {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 2.5rem; /* Take full height of the section */
+    width: 100%; /* Full width of the section */
+}
+
+.nav_menu {
+    display: flex; /* Arrange items in a row */
+    gap: 3rem; /* Space between items */
+    list-style: none; /* Remove default list styling */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+.nav_menu li {
+    border: 1px solid yellow; /* Yellow border for each list item */
+    padding: 0.5rem 1rem; /* Add some space inside the border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    transition: transform 0.2s ease, background-color 0.3s ease; /* Smooth animation for hover effect */
+}
+
+.nav_menu li:hover {
+    background-color: #FFD700; /* Highlight background on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.nav_menu a {
+    font-size: 1rem; /* Font size for links */
+    font-weight: 500; /* Proper font weight */
+    text-decoration: none; /* Remove underline */
+    color: white; /* Link color */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav_menu a:hover {
+    color: #8B1012; /* Change to a darker color on hover */
+}
+
+
+
+
+.banner{
+    height: 55rem;
+    background-color: white;
+}
+
+.banner_container {
+    height: 55rem;
+    margin: 0rem 0rem 0rem 0rem;
+    position: relative;
+    overflow: hidden; /* Ensures the background image stays inside the container */
+}
+
+.banner_container .banner-image {
+    position: absolute; /* Makes the image a background-like element */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Places the background image behind other content */
+    object-fit: cover; /* Ensures the image covers the container */
+}
+
+.banner_images_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    position: relative;
+    z-index: 2; /* Ensures the header content is above the background image */
+    padding: 0 1rem;
+}
+
+.banner_images_header img {
+    max-height: 100%; /* Ensures images fit within their containers */
+}
+
+.left_nav {
+    height: 90%;
+    width: 5rem;
+}
+
+.left_nav img {
+    height: 100%;
+}
+
+.middle_nav {
+    flex-grow: 1; /* Allows the middle section to take available space */
+    text-align: center; /* Centers the text horizontally */
+    font-size: 2rem;
+    font-weight: bold;
+    color: navy; /* Adjust as needed for better contrast with the background */
+}
+
+.right_nav {
+    height: 100%;
+}
+
+.right_nav img {
+    height: 100%;
+}
+
+
+
+
