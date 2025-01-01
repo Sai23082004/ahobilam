@@ -157,12 +157,12 @@ section:hover .nav-line {
 
 /* Banner Styling */
 .banner {
-    height: 55rem;
+    height: 35rem;
     background-color: white;
 }
 
 .banner_container {
-    height: 55rem;
+    height: 35rem;
     margin: 0;
     position: relative;
     overflow: hidden;
@@ -182,12 +182,133 @@ section:hover .nav-line {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100%;
+    height: 90%;
     position: relative;
     z-index: 2;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
 }
 
 .banner_images_header img {
     max-height: 100%;
 }
+.maq
+{
+    background-color: #EA7633;
+}
+marquee
+{
+    margin-bottom: 0.5rem
+    
+}
+.latest-update
+{
+widt: 100%;
+
+background-color: white;
+padding: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
+
+/* Heading Style */
+.latest-update h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffe5b4; /* Light orange color */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+};
+}
+
+
+
+.latest-update {
+    width: 100%;
+
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+}
+
+/* Heading Style */
+.latest-update h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bolder;
+
+}
+
+/* Table Styling */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 8rem;
+
+    
+}
+
+thead {
+    background-color: #E5874F;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #F7E8E0; /* Light orange color */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+
